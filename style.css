@@ -1,0 +1,301 @@
+#bigbox{
+    width: min(100%, 1860px);
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    height: 84px;
+}
+header > nav{
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+}
+header > nav > p{
+    margin: 0;
+    width: 154px;
+    height: 36px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 22px;
+    margin-left: 62px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff;
+}
+
+header > a{
+    grid-row: 1;
+    grid-column: 2;
+    justify-content: flex-end;
+    width: 930px;
+    margin-left: 845px;
+    margin-top: 23px;
+
+}
+
+
+
+.container{
+    
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
+nav > a:nth-child(2)::before{
+    content: url("images/phone.svg");
+    width: 16.5px;
+    height: 16.5px;
+    margin-right: 9.75px;
+}
+.phone{
+    margin-left: 75px;
+    margin-top: 30px;
+    width: 200px;
+    height: 24px;
+    font-family:'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.mail{
+    margin-left: 65px;
+    margin-top: 30px;
+    width: 315px;
+    height: 24px;
+    font-family:'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > a:last-child::before{
+    content: url("images/mail.svg");
+    width: 16.5px;
+    height: 16.5px;
+    margin-right: 13.83px;
+}
+
+.burger-icon span{
+    display: block;
+    width: 24px;
+    height: 1px;
+    background-color: #888;
+    margin: 10px 0;    
+}
+
+#n°1{
+    background-image: url(images/bg1.svg);
+    background-color: #232323;
+    height: 1087px;    
+}
+
+#section12{
+    display: flex;
+    color:#fff;
+}
+
+#text{
+    width: 915px;
+}
+
+#text > p:first-child{
+    width: 295px;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-left: 393px;
+    margin-top:80px;
+}
+
+#text > h2{
+    width: 604px;
+    height: 101px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 101px;
+    letter-spacing: -3px;
+    margin-left: 388px;
+    margin-right: 104px;
+    margin-top: 33px;
+    margin-bottom: 0;
+}
+
+#text > h3{
+    width: 242px;
+    height: 101px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 101px;
+    letter-spacing: -1px;
+    color:#F87F28;
+    margin-top: 2px;
+    margin-left: 388px;
+    margin-bottom: 0;   
+}
+
+#text > p:nth-child(4){
+    width: 441px;
+    height: 72px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 24px;
+    margin-left: 393px;
+    margin-bottom: 0;
+}
+
+#text > p:nth-child(5){
+    width: 290px;
+    height: 24px;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 393px;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+#boots{
+    display: flex;
+}
+
+#boots > .btn{
+    margin-left: 390px;
+    margin-top: 50px;
+    width: 123px;
+    height: 47px;
+    background: #bb2323;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    color:#fff;
+    cursor: pointer;
+    border: none;
+}
+
+#boots > .btn:hover{
+    width: 131px;
+    height: 47px;
+    background: #202020;
+    border:2px solid #F87F28;
+    color: #F87F28;
+}
+
+#boots > .btn1{
+    margin-left: 422px;
+    margin-top: 50px;
+    margin-right: 23px;
+    margin-bottom: 50px;
+    width: 123px;
+    height: 47px;
+    background: #bb2323;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    margin-left: 23px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+#boots > .btn1:hover{
+    width: 131px;
+    height: 47px;
+    background: #202020;
+    border:2px solid #F87F28;
+    color: #F87F28;
+}
+
+#photo{
+    margin-top: 50px;
+    margin-left: 181px;
+}
+
+#text > p:nth-child(7){
+    color: #bfbfbf;
+    width: 218px;
+    height: 31px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 836px;
+    margin-top: 175px;
+    margin-right: 0;
+    margin-bottom: 0px;
+}
+
+#clients{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-left: 446px;
+}
+
+#clients > p{
+    margin: 0;
+    
+}
+
+#clients > #sega{
+    width: 109px;
+    height: 36.36px;
+    margin-right: 60.21px;
+}
+
+#clients > #ubisoft{
+    width: 73.45px;
+    height: 67.48px;
+    margin-right: 22.5px;
+}
+
+#clients > #microsoft{
+    width: 205.31px;
+    height: 92.02px;
+    margin-right: 13.15px;
+}
+
+#clients > #electronic_arts{
+    width: 167.11px;
+    height: 94px;
+    margin-right: 42.6px;
+}
+
+#clients > #capcom{
+    width: 131.2px;
+    height: 24.02px;
+    margin-right: 32.06px;
+}
+
+#clients > #bethesda{
+    width: 158.57px;
+    height: 22.99px;
+}
+
+
+@media screen and (max-width: 375px){
+
+    header{
+
+    }
+
+
+}
