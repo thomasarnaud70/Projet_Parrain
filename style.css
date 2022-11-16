@@ -1,5 +1,10 @@
 #bigbox{
     width: min(100%, 1860px);
+    margin: 0;
+}
+
+body{
+    margin: 0;
 }
 
 
@@ -31,7 +36,7 @@ header > a{
     grid-row: 1;
     grid-column: 2;
     justify-content: flex-end;
-    width: 930px;
+
     margin-left: 845px;
     margin-top: 23px;
 
@@ -254,48 +259,381 @@ nav > a:last-child::before{
     margin: 0;
     
 }
+#clients1{
+    display: flex;
+    align-items: center;
+}
 
-#clients > #sega{
+#clients2{
+    display: flex;
+    align-items: center;
+}
+
+#clients3{
+    display: flex;
+    align-items: center;
+}
+
+#clients1 > #sega > img{
     width: 109px;
     height: 36.36px;
     margin-right: 60.21px;
 }
 
-#clients > #ubisoft{
+#clients1 > #ubisoft > img{
     width: 73.45px;
     height: 67.48px;
     margin-right: 22.5px;
 }
 
-#clients > #microsoft{
+#clients2 > #microsoft > img{
     width: 205.31px;
     height: 92.02px;
     margin-right: 13.15px;
 }
 
-#clients > #electronic_arts{
+#clients2 > #electronic_arts > img{
     width: 167.11px;
     height: 94px;
     margin-right: 42.6px;
+    padding-top: 10px;
 }
 
-#clients > #capcom{
+#clients3 > #capcom > img{
     width: 131.2px;
     height: 24.02px;
     margin-right: 32.06px;
+    padding-top: 8px;
 }
 
-#clients > #bethesda{
+#client3 > #bethesda > img{
     width: 158.57px;
     height: 22.99px;
+    padding-top: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 375px){
 
-    header{
-
+    #bigbox{
+        width: 100%;
     }
+
+   
+    header > nav > a{
+        display: none;
+        margin-left:  0;
+    }
+    header{
+       grid-template-columns: 200px 49px;
+    }
+    header > nav > p{
+        margin-left: 30px;
+    }
+
+    header > a{
+        margin-left: 0px;
+    }
+    
+
+    #n°1{
+        background-image: url(images/form_1.svg);
+        background-repeat: no-repeat;
+        background-color: #232323;
+        
+    }
+    #n°1 > img{
+       
+    }
+    
+
+    #photo1{
+        display: none;
+    }
+
+    #text{
+        width: 375px;
+    }
+
+    #text > p:first-child{
+        width: 304px;
+        height: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        margin-left: 29.27px;
+        margin-top:58.23px;
+    }
+
+    #text > h2{
+        width: 340px;
+        height: 66.4px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 101px;
+        letter-spacing: -3px;
+        margin-left: 24.27px;
+        margin-right: 0px;
+        margin-top: 8.11px;
+        margin-bottom: 0;
+    }
+
+    #text > h3{
+        width: 340px;
+        height: 84px;
+        font-family: 'Inter',sans-serif;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 101px;
+        letter-spacing: -1px;
+        color:#F87F28;
+        margin-top: 2px;
+        margin-left: 23.8px;
+        margin-bottom: 0;   
+    }
+
+
+    #text > p:nth-child(4){
+        width: 322.47px;
+        height: 120px;
+        font-family: 'Inter',sans-serif;
+        font-weight: 400;
+        font-style: 16px;
+        line-height: 24px;
+        margin-left: 29.27px;
+        margin-top: 36.44px;
+    }
+    
+    #text > p:nth-child(5){
+        width: 303px;
+        height: 24px;
+        font-family:'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 29.27px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    #text > p:nth-child(7){
+        color: #bfbfbf;
+        width: 218px;
+        height: 31px;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 31px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-left: -42.5px;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-bottom: 45.21px;
+    }
+    
+    
+    .burger-icon span{
+        display: block;
+        width: 19px;
+        background-color: #fff;
+        margin-top: 10px;
+        margin-left: 14px; 
+    }
+
+    #openBtn{
+        width: 49px;
+        height: 49px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .burger-icon{
+        width: 49px;
+        height: 49px;
+        border-radius: 25px;
+        background-color: #F87F28;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 3px;
+        margin-bottom: 10px;
+       
+        
+       
+    }
+    header{
+        
+        grid-template-columns: 200px 150px;
+        
+    }
+    
+    
+    #boots{
+        margin: 0;
+    }
+
+    #boots > .btn{
+        margin-left: 24.27px;
+        margin-top: 32.23px;
+        width: 123px;
+        height: 47px;
+        background: #bb2323;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        border-radius: 50px;
+        color:#fff;
+        cursor: pointer;
+        border: none;
+        margin-bottom: 67.3px;
+    }
+    
+    #boots > .btn:hover{
+        width: 131px;
+        height: 47px;
+        background: #202020;
+        border:2px solid #F87F28;
+        color: #F87F28;
+    }
+
+    #boots > .btn1{
+        margin-top: 32.23px;
+        margin-right: 23px;
+        width: 123px;
+        height: 47px;
+        background: #bb2323;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        border-radius: 50px;
+        margin-left: 23px;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+    }
+    
+    #boots > .btn1:hover{
+        width: 131px;
+        height: 47px;
+        background: #202020;
+        border:2px solid #F87F28;
+        color: #F87F28;
+        background-color: #F87F28;
+    }
+    #clients{
+        display: block;
+        margin: 0;
+       
+    }
+
+    #clients1 > p{
+        margin: 0px;
+        padding-right: 2px;
+        
+    }
+
+    #clients1{
+        display: flex;
+        align-items: center;
+        width: 194px;
+        height: 76.2px;
+        margin-left: 52px;
+        margin-bottom: 30px;
+        
+    }
+
+    #clients1 > #sega > img{
+        width: 110.78px;
+        height: 36.96px;
+        margin-top: 0;
+    }
+    
+    #clients1 > #ubisoft > img{
+        width: 82.92px;
+        height: 76.19px;
+        margin-right: 22.5px;
+    }
+
+    #clients2 > p{
+        margin:0;
+        padding: 0;
+    }
+    
+
+    #clients2{
+        display: flex;
+        align-items: center;
+        width: 340px;
+        height: 85.77px;
+    }
+    
+
+    #clients2 > #microsoft > img{
+        width: 135px;
+        height: 84px;
+        margin-left: 40px;
+        padding-top: 7px;
+        padding-right: 8px;
+        
+    }
+    
+    #clients2 > #electronic_arts > img{
+        width: 152.49px;
+        height: 85.77px;
+        margin-right: 0px;
+        
+        
+    }
+
+    #clients3 > p{
+        margin:0;
+    }
+
+    #clients3{
+        display: flex;
+        align-items: center;
+        height: 24.02px;
+        padding: 65px 0 0 0;
+    }
+    
+    #clients3 > #capcom > img{
+        width: 131.2px;
+        height: 24.02px;
+        margin-right: 28px;
+        padding-top: 9.8px;
+        margin-left: 40px;
+    }
+    
+    #client3 > #bethesda > img{
+        width: 158.57px;
+        height: 22.99px;
+        
+    }
+
 
 
 }
