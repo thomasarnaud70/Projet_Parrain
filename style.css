@@ -250,6 +250,7 @@ nav > a:last-child::before{
     margin-top: 200px;
     margin-right: 0;
     margin-bottom: 0px;
+    
 }
 
 #clients{
@@ -346,15 +347,16 @@ nav > a:last-child::before{
     padding-top: 152px;
 }
 
-.orange5{
+.orange5:nth-child(2){
         width: 73px;
         height: 3px;
         background-color:#F87F28;
         margin-top: 9px;
         margin-bottom: 36px;
-        margin-left: 894px
-}
-#text2 > p{
+        margin-left: 894px;
+
+    }
+#text2 > p:nth-child(3){
     width: 429px;
     height: 48px;
     font-family: 'Inter',sans-serif;
@@ -365,6 +367,7 @@ nav > a:last-child::before{
     margin-left: 716px;
     margin-right: 715px;
     letter-spacing: 1.5px;
+    
 }
 
 #colonne{
@@ -387,7 +390,7 @@ nav > a:last-child::before{
     height: 182px;
 }
 
-#col1 > h4{
+#col1 > h3{
     width: 102px;
     height: 23px;
     font-family: 'Inter',sans-serif;
@@ -420,7 +423,7 @@ nav > a:last-child::before{
     margin-left: 130px;
 }
 
-#col2 > h4{
+#col2 > h3{
     width: 164px;
     height: 23px;
     font-family: 'Inter',sans-serif;
@@ -456,7 +459,7 @@ nav > a:last-child::before{
     width: 191px;
 }
 
-#col3 > h4{
+#col3 > h3{
     width: 113px;
     height: 23px;
     font-family: 'Inter',sans-serif;
@@ -486,7 +489,7 @@ nav > a:last-child::before{
     margin-left: 82.05px;    
 }
 
-#col4 > h4{
+#col4 > h3{
     width: 68px;
     height: 23px;
     font-family: 'Inter',sans-serif;
@@ -902,14 +905,15 @@ P{
 
 .btn2 {
     background: #F87F28;
-    margin: 1.125rem 0;
+    margin: 18px 0px;
     font-weight: 600;
     border-radius: 30px;
     color: #232323;
-    padding: 4px 12px 8px 12px;
+    padding: 8px 12px 8px 12px;
     border: none;
     margin-left: auto;
-    margin-right: 1.25rem;
+    margin-right: 20px;
+    
 }
 
 #competences2{
@@ -1011,9 +1015,13 @@ P{
 
 
 .text51 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'inter',sans-serif;
     font-weight: 600;
-    padding: 18px 15px;
+   
 }
 
 
@@ -1883,7 +1891,7 @@ footer{
         padding-top: 0;  
     }
 
-    .orange5{
+    .orange5:nth-child(2){
         width: 73px;
         height: 3px;
         background-color:#F87F28;
@@ -1902,7 +1910,7 @@ footer{
 
     }
   
-    #text2 > p{
+    #text2 > p:nth-child(3){
         width: 325.49px;
         height: 72px;
         font-family: 'Inter',sans-serif;
