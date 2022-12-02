@@ -116,7 +116,8 @@ nav > a:last-child::before{
     margin: 10px 0;    
 }
 
-#n°1{background-position: right;
+#n°1{
+    background-position: right;
     background-image: url(images/bg1.svg);
     background-color: #232323;
     background-repeat: no-repeat;
