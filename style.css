@@ -8,6 +8,22 @@ body{
 }
 
 
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/Roboto-Regular.woff) format('woff'),
+        url(fonts/Roboto-Regular.woff2) format('woff2');
+    src: local('cursive') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(fonts/Inter-Regular.woff) format('woff'),
+        url(fonts/Inter-Regular.woff2) format('woff2');
+    src: local('cursive') format('woff2');
+    font-display: swap;
+}
+
 header{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -118,7 +134,7 @@ nav > a:last-child::before{
 }
 
 #text > p:first-child{
-    width: 295px;
+    width: 325px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -1441,7 +1457,21 @@ footer{
 
 #titre85{
     width: 513px;
-    height: 64px;
+    height: 32px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0;
+    text-align: left;
+    margin-right: 0px;
+    margin-bottom: 0;
+    
+    
+}
+#titre80{
+    width: 513px;
+    height: 32px;
     margin-bottom: 12px;
     font-family: 'Inter',sans-serif;
     font-weight: 500;
@@ -1450,10 +1480,8 @@ footer{
     margin-top: 0;
     text-align: left;
     margin-right: 0px;
-    
-    
-}
 
+}
 #text84{
   width: 522px;
   height: 72px;
@@ -1620,7 +1648,7 @@ footer{
     }
 
     #text > p:first-child{
-        width: 304px;
+        width: 320px;
         height: 24px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -2802,8 +2830,8 @@ footer{
     
     #titre85{
         width: 270px;
-        height: 96px;
-        margin-bottom: 21.56px;
+        height: 32px;
+        margin-bottom: 0px;
         font-family: 'Inter',sans-serif;
         font-weight: 500;
         font-size: 24px;
@@ -2814,6 +2842,23 @@ footer{
         color: #bfbfbf;
         margin-left: 35.79px;    
     }
+
+    #titre80{
+        width: 270px;
+        height: 64px;
+        margin-bottom: 21.56px;
+        font-family: 'Inter',sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 0;
+        text-align: left;
+        margin-right: 0px;
+        color: #bfbfbf;
+        margin-left: 35.79px;
+    
+    }
+
     
     #text84{
       width: 281.48px;
